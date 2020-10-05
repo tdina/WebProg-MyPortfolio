@@ -1,0 +1,90 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = "";
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <link href="\css\site.css"
+          rel="stylesheet"/>
+    <title> Турниязова Дина Максотовна</title>
+    <meta name="keywords" content="Инфа обо мне" />
+    <meta name="description" content="Позорное порфтолио" />
+
+</head>
+<body>
+    <header>
+        <p><img src="/Images/header.png" alt="Hello, world"></p>
+        
+        <ul class="social list-inline">
+            <li><a href="https://vk.com/iam__d"><img src="/Images/vk.png" width="38px" height="38px" alt="vk"></a></li>
+            <li><a href="https://www.instagram.com/iam__d/"><img src="/Images/inst.png" width="38px" height="38px" alt="inst"></a></li>
+            <li><a href="https://github.com/tdina"><img src="/Images/github-logo.png" width="38px" height="38px" alt="git"></a></li>
+            <li><a href="https://t.me/mynameisdina"><img src="/Images/telegram_icon.png" width="38px" height="38px" alt="telegram"></a></li>
+        </ul>     
+    </header>
+    <main>
+        <section>
+            <img class="img-responsive" width="348px" height="420px" src="~/Images/myphoto.jpg" alt="Турниязова Дина" />
+            <h1 class="name">Турниязова Дина</h1>
+            <h2 class="aboutme">О себе</h2>
+            <p class="content">Начинающий software developer, дочь, сестра, подруга, девушка и просто хороший человечек</p>
+            <h2 class="skills">Навыки</h2>
+            <dl class="myskills">
+                <dt>Программирование</dt>
+                <dd>C, C++, C#, Java</dd>
+                <dt>не умение придумывать навыки </dt>
+            </dl>
+
+            <h2 class="projects">Проекты</h2>
+            <ul class="myprojects">
+                <li>Метеостанция, основанная на индуктивном сенсорном датчике</li>
+                <li>Серверный чат</li>
+                <li>Плагин "StackOverflow помощник"</li>
+            </ul>
+            <h2 class="education">Образование</h2>
+            <dl class="myeducation">
+                <dt>Университет ИТМО</dt>
+                <dd>Интернет технологии и программирование</dd>
+            </dl>
+            <h2 class="goal">Цели</h2>
+                <ul class="mygoal">
+                    <li>Почистить посудомоечную машину</li>
+                    <li><del datetime="2009-10-11T01:25-07:00">Погулять</del></li>
+                    <li><del datetime="2009-10-10T23:38-07:00">Поспать</del></li>
+                    <li><ins>Купить принтер</ins></li>
+                </ul>
+            
+            <pre class="dog">
+┊┊┊┊┊┊┊┊┊┊┊┊┊┊
+┊╭━━┳╮┊┊┊┊┊┊╭╮
+▇┫▍▍┃┃┊┊┊┊┊╭╯┃
+╰┳╯╭┻┻━━━━┳╯╭╯
+┊┃┏┓┃╭╯╭╭╭┣━╯┊
+┊┃┃┃┣━━┫┣┫┃┊┊┊
+┊╰┛╰┛┊┊╰┛┗┛┊┊┊
+┊┊┊┊┊┊┊┊┊┊┊┊┊┊
+</pre>
+        </section>
+    </main>
+
+    <footer>
+        <article>
+            <blockquote>
+                Это своего рода забава, делать <em>невозможное</em>. -
+                <cite>Уолт Дисней</cite>
+            </blockquote>
+
+        </article>
+        <article>
+            <div class="formule">Формула успеха может быть любой, если добавить <strong> C<sub>2</sub>H<sub>5</sub>OH</strong>. Тогда площадь вашего успеха распространится на миллион км<sup>2</sup></div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </article>
+    </footer>
+</body>
+</html>
