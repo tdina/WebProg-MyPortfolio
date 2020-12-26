@@ -7,4 +7,7 @@ wwwroot saves css and imagines for visualisation
   Added DOCTYPE
 2) Add css file, change front size and etc, use selector
 3)Add margin, background for each element
+4) Add flex, float
+5) Add js where I create array, count min max median, count tags, sort
+6) Add js where contacts show up, change size of images in gallery
   
